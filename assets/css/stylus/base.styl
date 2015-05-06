@@ -1,0 +1,134 @@
+@import 'mixin.styl'
+
+/**
+ * Commons styles
+ */
+ 
+body, html
+    height 100%
+    font-size:62.5%;
+    
+body
+    -webkit-font-smoothing antialiased
+    font-family 'Open Sans', sans-serif
+    font-size 16px
+
+a 
+    text-decoration none
+    
+h1, h2, h3
+    margin-top 0px !important
+    font-weight normal
+
+
+/* common site structure */
+
+#header
+    width 100%
+    background #FFF
+    border-bottom 1px #CCC solid;
+    box-shadow(0 2px 4px 0 rgba(0,0,0,0.1))
+    
+    .wrapper
+        padding-top 20px
+        padding-bottom 20px
+        
+    .logo
+        display inline-block
+        vertical-align middle
+        
+    .nav
+        display inline-block
+        vertical-align middle
+        margin 0 0 0 50px
+        
+        ul
+            // height 39px
+            padding 0px
+            margin 0px
+            overflow hidden
+        li
+            list-style none
+            float left
+            
+            a
+                color:#333
+                display block
+                padding 0 16px
+                font-size 1.8rem
+                
+                &:hover
+                    text-decoration underline
+        
+    .share-tipsti
+        float right
+        margin 8px 104px 0 0
+        
+        .twitter
+            vertical-align middle
+            display inline-block
+            margin 4px 10px 0
+        
+
+.wrapper
+    padding 0 30px
+    max-width 1200px
+    margin auto
+    // overflow hidden
+
+/* fluid columns */
+.fluid
+    display table
+    width 100%
+    
+.column
+    padding 30px 0
+    vertical-align top
+    
+.fluid-center
+    display: table-cell;
+    // background #FF0000
+    
+.fluid-right
+    width: 300px;
+    display: table-cell;
+    padding-left 60px
+    
+    .column-title
+        color #FD1E30
+        font-size 2.6rem
+        text-transform uppercase
+    
+
+/* post share */
+.share-post
+    margin 30px 0
+    overflow hidden
+    
+    .share-button
+        width 45px
+        height 45px
+        display inline-block
+        padding 2px 8px
+        font-size 1.6em
+        color #FFF
+        margin 0 0 0 10px
+        border-radius(50%)
+        box-sizing(border-box)
+        
+        &:first-child
+            margin-left 0px
+            
+        &.fb
+            background #4760A2
+            
+        &.tw
+            background #579FD0
+                        
+        &.ps
+            background #D6492F
+    // h2
+    //     // text-transform uppercase
+    //     font-size 2.6rem
+    //     margin-top 0px
+    //     color #FD1E30
