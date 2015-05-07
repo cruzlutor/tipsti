@@ -1,0 +1,41 @@
+/**
+ * Commons styles
+ */
+body,
+html {
+  height: 100%;
+}
+body {
+  -webkit-font-smoothing: antialiased;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 16px;
+}
+footer {
+  background: #555;
+  height: 100px;
+}
+a {
+  text-decoration: none;
+}
+h1,
+h2,
+h3 {
+  font-weight: normal;
+}
+h1 {
+  font-size: 1.8em;
+}
+h2 {
+  font-size: 1.6em;
+}
+h3 {
+  font-size: 1.2em;
+}
+
+/**
+ * Utils & mixins
+ */
+/*
+flex-wrap()
+    //vendor('flex-wrap', arguments)    
+*/
