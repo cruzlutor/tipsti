@@ -12,7 +12,6 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
     <link rel="shortcut icon" href="<?php echo get_template_directory_uri(); ?>/assets/favicon.ico">
-    <link rel="alternate" hreflang="es" href="http://www.tipsti.com" />
 
     <?php wp_head(); ?>
 
