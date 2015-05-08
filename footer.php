@@ -2,7 +2,7 @@
     <?php wp_footer(); ?>
 
     <!-- The main JavaScript file for Casper -->
-    <script type="text/javascript" src="<?php echo get_template_directory_uri(); ?>/assets/js/index.js" ></script>
+    <script type="text/javascript" src="<?php echo get_template_directory_uri(); ?>/assets/js/all.js" ></script>
 
     <script>(function(d, s, id) {
         var js, fjs = d.getElementsByTagName(s)[0];
